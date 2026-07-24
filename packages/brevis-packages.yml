@@ -1,0 +1,21 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/brevis-network + npm + pkg.go.dev
+packages:
+  - language: typescript
+    registry: npm
+    name: brevis-sdk-typescript
+    version: 1.3.1
+    url: https://www.npmjs.com/package/brevis-sdk-typescript
+    install: npm install brevis-sdk-typescript
+    description: A TypeScript SDK for interacting with the custom prover service and Brevis.
+    repository: https://github.com/brevis-network/brevis-sdk-typescript
+    official: true
+  - language: go
+    registry: go
+    name: github.com/brevis-network/brevis-sdk
+    url: https://pkg.go.dev/github.com/brevis-network/brevis-sdk
+    install: go get github.com/brevis-network/brevis-sdk
+    description: SDK for writing application circuits on Brevis (BrevisApp entry point).
+    repository: https://github.com/brevis-network/brevis-sdk
+    official: true

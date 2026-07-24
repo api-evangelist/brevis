@@ -1,0 +1,25 @@
+# Brevis
+
+> Brevis is a highly efficient ZK coprocessor and zkVM that empowers smart contracts to read from full historical on-chain data across all supported blockchains and run customizable, trust-free computations. Developers build application circuits with the Brevis SDK (Go and TypeScript), specify a Data Access Module and App Contract, and receive ZK-verified or coChain-verified results on-chain. Backed by Polychain.
+
+## Docs
+- [Brevis zkCoprocessor Docs](https://coprocessor-docs.brevis.network/): Developer guide, tutorials, and Circuit SDK reference.
+- [Developer Resources / Circuit SDK Reference](https://coprocessor-docs.brevis.network/developer-resources): App Circuit Interface, DataStream API, Circuit API, Prover Service, Peripheral APIs.
+- [Tutorial](https://coprocessor-docs.brevis.network/developer-guide/tutorial/): Build and deploy an application circuit end to end (Go and TypeScript).
+- [Brevis App Workflow](https://coprocessor-docs.brevis.network/developer-guide/brevis-app-workflow): The request/prove/verify lifecycle for a Brevis-powered dApp.
+- [ProverNet Docs](https://provernet-docs.brevis.network/): ProverNet architecture and proof generation & verification.
+- [Pico zkVM Docs](https://pico-docs.brevis.network/): Open-source high-performance zkVM used by Brevis.
+
+## Specs
+- [ProverNet Whitepaper (Brevis v2.0)](https://brevis.network/whitepaper/provernet.pdf): Open marketplace for zero-knowledge proofs.
+
+## SDKs
+- [brevis-sdk (Go)](https://github.com/brevis-network/brevis-sdk): SDK for writing application circuits on Brevis.
+- [brevis-sdk-typescript (npm)](https://www.npmjs.com/package/brevis-sdk-typescript): TypeScript SDK for the custom prover service and Brevis.
+- [brevis-quickstart-ts](https://github.com/brevis-network/brevis-quickstart-ts): TypeScript quickstart repository.
+- [pico](https://github.com/brevis-network/pico): The Pico zkVM (Rust).
+
+## Optional
+- [GitHub Organization](https://github.com/brevis-network): 89+ repositories including SDKs, contracts, Pico, and ProverNet tooling.
+- [Blog](https://blog.brevis.network/): Product, protocol, and research announcements.
+- [Website](https://brevis.network): Company home.

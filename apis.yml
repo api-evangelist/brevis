@@ -1,9 +1,28 @@
 aid: brevis
 name: Brevis
-description: 'Brevis is a company surfaced as a portfolio company of polychain and added to the API Evangelist
-  network as a stub for enrichment. Sector: zk-coprocessor. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Brevis is a highly efficient ZK coprocessor and zkVM that empowers smart
+  contracts to read from the full historical on-chain data across all supported
+  blockchains and run customizable computations in a completely trust-free way.
+  Developers build application circuits with the Brevis SDK (available in Go and
+  TypeScript), implementing a Data Access Module to specify the historical
+  blockchain data needed, an App Circuit for the computation logic, and an App
+  Contract to receive ZK-verified or coChain-verified results on-chain. Brevis
+  also operates ProverNet, an open marketplace for zero-knowledge proofs, and
+  Pico, an open-source high-performance zkVM. Backed by Polychain.
 url: https://raw.githubusercontent.com/api-evangelist/brevis/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://brevis.network/favicon.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Zk Coprocessor
+- Zero Knowledge Proofs
+- zkVM
+- Blockchain
+- Smart Contracts
+- Cryptography
+- SDK
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,30 @@ maintainers:
 common:
 - type: Website
   url: https://brevis.network
+- type: Documentation
+  url: https://coprocessor-docs.brevis.network/
+- type: DeveloperPortal
+  url: https://coprocessor-docs.brevis.network/developer-resources
+- type: APIReference
+  url: https://coprocessor-docs.brevis.network/developer-resources/circuit-sdk-reference/circuit-api
+- type: GettingStarted
+  url: https://coprocessor-docs.brevis.network/developer-guide/tutorial/
+- type: GitHubOrganization
+  url: https://github.com/brevis-network
+- type: Blog
+  url: https://blog.brevis.network/
+- type: Whitepaper
+  url: https://brevis.network/whitepaper/provernet.pdf
+- type: Packages
+  url: packages/brevis-packages.yml
+- type: SDKs
+  url: packages/brevis-packages.yml
+- type: LLMsTxt
+  url: llms/brevis-llms.txt
+- type: DomainSecurity
+  url: security/brevis-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
